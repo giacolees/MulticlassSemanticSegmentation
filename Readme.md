@@ -38,7 +38,7 @@ The model is trained using the preprocessed Cityscapes dataset with a focus on t
 During training, the AdamW optimizer is utilized for parameter optimization. Additionally, a Cosine Annealing learning rate scheduler is employed to adjust the learning rate throughout the training process. The loss function used is a Weighted Cross Entropy Loss, which assigns different weights to each class to account for class imbalance.
 
 ## Results
-The performance of the trained model is evaluated using standard metrics such as mean IoU (Intersection over Union). Visualizations of the segmentation results are also provided to assess the model's qualitative performance.
+The performance of the trained model is evaluated using standard metrics such as mean IoU (Intersection over Union).
 
 ## Usage
 To use this project, follow these steps:
