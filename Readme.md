@@ -1,6 +1,7 @@
 # Multiclass Semantic Segmentation on Cityscapes Dataset
 
 This repository contains an implementation of multiclass semantic segmentation on the Cityscapes dataset using deep learning, particularly employing the UNet architecture. Additionally, the dataset has undergone preprocessing to consolidate it into 8 classes deemed more significant for the task.
+The mainly part of the project is described in the MainNotebook.ipynb file, other files like UNet.py and CityscapesLoader.py are imported in the main file
 
 ## Table of Contents
 - [Introduction](#introduction)
