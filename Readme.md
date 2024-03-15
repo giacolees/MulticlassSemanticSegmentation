@@ -18,11 +18,11 @@ This repository contains an implementation of multiclass semantic segmentation o
 Semantic segmentation is a crucial task in computer vision that involves assigning semantic labels to each pixel in an image. This project focuses on performing multiclass semantic segmentation using deep learning techniques, specifically leveraging the UNet architecture. The Cityscapes dataset, a popular benchmark for urban scene understanding, is employed for training and evaluation.
 
 ## Python Version
-
 This project is implemented using Python 3.10.10. It's recommended to use Python 3.10.10 or check the libraries available in the chosen Python version.
 
 ## Dataset
 The Cityscapes dataset consists of urban street scenes, with high-quality pixel-level annotations. It contains images from various cities, captured under different weather and lighting conditions. The dataset includes 30 classes for segmentation tasks. However, for the purpose of this project, we have preprocessed the dataset to reduce it to 8 classes that are more relevant for our segmentation task.
+The version of the Cityscapes dataset used in this project can be downloaded from the following link: [Cityscapes Dataset](https://www.kaggle.com/datasets/xiaose/cityscapes/code). It's important to ensure that you're using the correct version of the dataset to reproduce the results and maintain compatibility with the preprocessing steps implemented in this project. If you encounter any issues with the dataset version or require assistance, feel free to reach out for support.
 
 ## Preprocessing
 Prior to training, the Cityscapes dataset underwent preprocessing to reduce the number of classes to 8. This step was taken to focus on the most important classes for semantic segmentation while simplifying the task. The preprocessing step involved merging similar classes and removing less significant ones.
